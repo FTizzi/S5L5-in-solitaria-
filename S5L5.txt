@@ -1,0 +1,9 @@
+
+Usando Nessus ho scansionato Metaspotable e ho trovato 8 criticità .
+Ho posto rimedio a 3 di queste ultime:
+-1 VNC Server 'password' Password
+-2 Bind Shell Backdoor Detection
+-3 NFS Exported Share Information Disclosure
+
+La prima criticità è stata risolta cambiando semplicemente la password di default, metre per le altre due ho creato delle regole sul firewall (PFsense) dove blocco le porte 1524 e 2049.
+  
